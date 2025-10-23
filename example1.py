@@ -31,3 +31,8 @@ print()
 print(df.describe())
 print()
 
+df_open = df.loc[df["Open"]>100,"Open"]
+print(df_open[df_open>200])
+print()
+
+
